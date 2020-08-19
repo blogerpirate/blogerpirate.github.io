@@ -49,6 +49,14 @@
     .title {
         font-size: 27px;
     }
+    // Third section
+    .consultation {
+        min-height: 650px;
+        padding: 100px 20px 92px 20px;
+    }
+    .feed-form {
+        width: 280px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -109,6 +117,30 @@
     }
     .title {
         font-size: 25px;
+    }
+
+    // Third section
+    .title {
+        &_left {
+            text-align: center;
+        }
+    }
+    .consultation {
+        padding: 100px 25px 92px 25px;
+        &__descr {
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+    .button {
+        &_submit {
+            width: 100%;
+            font-size: 15px;
+        }
     }
 }
 
@@ -171,6 +203,26 @@
     .title {
         font-size: 23px;
     }
+
+    // Third section
+    .consultation {
+        min-height: 580px;
+        &__descr {
+            font-size: 17px;
+        }
+    }
+    .feed-form {
+        margin-top: 36px;
+        width: 260px;
+        input {
+            height: 45px;
+        }
+    }
+    .button {
+        &_submit {
+            height: 50px;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -211,5 +263,31 @@
     // Second section
     .title {
         font-size: 20px;
+    }
+    
+    // Third section
+    .title {
+        &_left {
+            font-size: 18px;
+        }
+    }
+    .consultation {
+        padding: 90px 25px 75px 25px;
+        &__descr {
+            font-size: 15px;
+        }
+    }
+    .feed-form {
+        margin-top: 36px;
+        width: 260px;
+        input {
+            height: 45px;
+        }
+    }
+    .button {
+        &_submit {
+            width: 100%;
+            font-size: 15px;
+        }
     }
 }
