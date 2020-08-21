@@ -57,6 +57,11 @@
     .feed-form {
         width: 280px;
     }
+
+    // Fourth section
+    .carousel {
+        padding: 81px 20px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -142,6 +147,14 @@
             font-size: 15px;
         }
     }
+
+    // Fourth section
+    .carousel {
+        padding: 70px 25px;
+        &__inner {
+            max-width: 100%;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -223,6 +236,14 @@
             height: 50px;
         }
     }
+
+    // Fourth section
+    .carousel {
+        &__inner {
+            max-width: 100%;
+        }
+    }
+    
 }
 
 @media (max-width: 575px) {
@@ -288,6 +309,13 @@
         &_submit {
             width: 100%;
             font-size: 15px;
+        }
+    }
+    
+    // Fourth section
+    .carousel {
+        &__inner {
+            max-width: 100%;
         }
     }
 }
