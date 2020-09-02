@@ -62,6 +62,14 @@
     .carousel {
         padding: 81px 20px;
     }
+
+    // Fifth section
+    .catalog {
+        padding: 0 20px 100px 20px;
+        &__tab {
+            width: 200px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -155,6 +163,29 @@
             max-width: 100%;
         }
     }
+
+    // Fifth section
+    .catalog {
+        padding: 0 25px 100px 25px;
+        &__tabs {
+            margin-top: 60px;
+        }
+        &__tab {
+            font-size: 15px;
+            &:hover {
+                box-shadow: none;
+                border: 2px solid #d0d0d0;
+            }
+            &_active {
+                &:hover {
+                    border: none;
+                }
+            }
+        }
+        &__content {
+            justify-content: space-around;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -243,6 +274,39 @@
             max-width: 100%;
         }
     }
+
+    // Fifth section
+    .catalog-item {
+        width: 250px;
+        &__img {
+            height: 170px;
+        }
+        &__subtitle {
+            font-size: 14px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        &__link {
+            font-size: 13px;
+        }
+        &__list {
+            li {
+                font-size: 11px;
+            }
+        }
+        &__old-price {
+            font-size: 13px;
+        }
+        &__price {
+            font-size: 17px;
+        }
+    }
+    .button {
+        &_mini {
+            width: 110px;
+        }
+    }
     
 }
 
@@ -316,6 +380,48 @@
     .carousel {
         &__inner {
             max-width: 100%;
+        }
+    }
+
+    // Fifth section
+    .catalog {
+        &__tabs {
+            margin-top: 20px;
+            flex-direction: column;
+        }
+        &__tab {
+            font-size: 13px;
+            width: 180px;
+            height: 40px;
+            margin: 7px 0;
+            div {
+                line-height: 40px;
+            }
+        }
+        &__content {
+            margin-top: 30px;
+        }
+    }
+    .catalog-item {
+        min-height: 377px;
+        &__img {
+            height: 130px;
+        }
+        &__subtitle {
+            font-size: 13px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        &__link {
+            margin-top: 10px;
+            font-size: 12px;
+        }
+        &__old-price {
+            font-size: 12px;
+        }
+        &__price {
+            font-size: 15px;
         }
     }
 }
