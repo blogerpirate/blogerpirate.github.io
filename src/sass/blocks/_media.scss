@@ -77,6 +77,29 @@
         padding: 0 20px 71px 20px;
     }
 
+    // Seventh section {
+    .footer {
+        &__info {
+            width: 400px;
+            height: 230px;
+        }
+        &__addr {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        &__phone {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+            img {
+                height: 23px;
+            }
+        }
+    }
+
 @media (max-width: 991px) {
     // First section
     .header {
@@ -209,6 +232,28 @@
             height: 150px;
         }
     }
+
+    // Seventh section {
+        .footer {
+            &__info {
+                width: 320px;
+                height: 200px;
+            }
+            &__addr {
+                font-size: 11px;
+                margin-bottom: 20px;
+            }
+            &__phone {
+                font-size: 11px;
+            }
+            &__social-item {
+                width: 30px;
+                height: 30px;
+                img {
+                    height: 17px;
+                }
+            }
+        }
 }
 
 @media (max-width: 767px) {
@@ -357,6 +402,13 @@
             height: 140px;
         }
     }
+
+    // Seventh section {
+        .footer {
+            &__info {
+                width: 100%;
+            }
+        }
     
 }
 
