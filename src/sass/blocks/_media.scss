@@ -100,6 +100,24 @@
         }
     }
 
+    // Modal windows
+    .modal {
+        width: 350px;
+        min-height: 383px;
+        padding: 30px 40px 30px 40px;
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+    }
+    .feed-form {
+        &_mt25 {
+            width: 100%;
+        }
+    }
+
 @media (max-width: 991px) {
     // First section
     .header {
@@ -234,26 +252,39 @@
     }
 
     // Seventh section {
-        .footer {
-            &__info {
-                width: 320px;
-                height: 200px;
-            }
-            &__addr {
-                font-size: 11px;
-                margin-bottom: 20px;
-            }
-            &__phone {
-                font-size: 11px;
-            }
-            &__social-item {
-                width: 30px;
-                height: 30px;
-                img {
-                    height: 17px;
-                }
+    .footer {
+        &__info {
+            width: 320px;
+            height: 200px;
+        }
+        &__addr {
+            font-size: 11px;
+            margin-bottom: 20px;
+        }
+        &__phone {
+            font-size: 11px;
+        }
+        &__social-item {
+            width: 30px;
+            height: 30px;
+            img {
+                height: 17px;
             }
         }
+    }
+    
+    // Modal windows
+    .modal {
+        width: 320px;
+        min-height: 371px;
+        padding: 20px 40px 20px 40px;
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -403,12 +434,23 @@
         }
     }
 
-    // Seventh section {
-        .footer {
-            &__info {
-                width: 100%;
-            }
+    // Seventh section
+    .footer {
+        &__info {
+            width: 100%;
         }
+    }
+
+    // Modal windows
+    .modal {
+        min-height: 340px;
+    }
+    .feed-form {
+        &_mt25 {
+            margin-top: 25px;
+            width: 100%;
+        }
+    }
     
 }
 
@@ -541,6 +583,38 @@
         &__img {
             width: 120px;
             height: 120px;
+        }
+    }
+
+    // Modal windows
+    .modal {
+        width: 250px;
+        min-height: 327px;
+        padding: 20px 25px 20px 25px;
+        &__subtitle {
+            font-size: 12px;
+        }
+        &__descr {
+            font-size: 10px;
+        }
+        &__close {
+            right: -25px;
+            font-size: 30px;
+            line-height: 30px;
+        }
+    }
+    .feed-form {
+        &_mt25 {
+            margin-top: 20px;
+            width: 100%;
+            input {
+                font-size: 12px;
+            }
+        }
+    }
+    .button {
+        &_modal {
+            font-size: 13px;
         }
     }
 }
