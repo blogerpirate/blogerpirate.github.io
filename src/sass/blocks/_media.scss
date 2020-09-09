@@ -111,6 +111,9 @@
         &__descr {
             font-size: 13px;
         }
+        &_mini {
+            min-height: 140px;
+        }  
     }
     .feed-form {
         &_mt25 {
@@ -284,6 +287,9 @@
         &__descr {
             font-size: 12px;
         }
+        &_mini {
+            min-height: 140px;
+        }
     }
 }
 
@@ -444,6 +450,9 @@
     // Modal windows
     .modal {
         min-height: 340px;
+        &_mini {
+            min-height: 140px;
+        }
     }
     .feed-form {
         &_mt25 {
@@ -451,6 +460,7 @@
             width: 100%;
         }
     }
+    
     
 }
 
@@ -601,6 +611,9 @@
             right: -25px;
             font-size: 30px;
             line-height: 30px;
+        }
+        &_mini {
+            min-height: 140px;
         }
     }
     .feed-form {
